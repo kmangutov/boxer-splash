@@ -1,7 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,300light|Monsterrat:400|Oswald:300,400|Bree+Serif|Merriweather|Vollkorn");
-@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 /* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -69,27 +68,35 @@ h1 {
   color: #2176C7; }
 
 /* line 9, ../../sass/_fonts.scss */
-.font-title {
+.font-title, .font-subtitle {
   font-family: Lato, sans-serif;
   font-weight: 300;
   font-size: 4em; }
 
 /* line 16, ../../sass/_fonts.scss */
+.font-subtitle {
+  font-size: 3em; }
+
+/* line 21, ../../sass/_fonts.scss */
 .font-skinny {
   font-family: Lato, sans-serif !important;
   font-weight: 100 !important;
   font-size: 52px !important; }
 
-/* line 23, ../../sass/_fonts.scss */
+/* line 28, ../../sass/_fonts.scss */
 .font-reading {
   font-family: Merriweather, serif !important;
   font-size: 24px; }
 
-/* line 29, ../../sass/_fonts.scss */
+/* line 34, ../../sass/_fonts.scss */
 .font-white {
   color: #fff !important; }
 
 /* line 11, ../../sass/styles.scss */
+.cell {
+  padding: 20px 20px; }
+
+/* line 15, ../../sass/styles.scss */
 .splash-image {
   position: fixed;
   left: 0;
@@ -103,45 +110,43 @@ h1 {
   -webkit-filter: blur(2px) grayscale(0.1);
   transform: scale(1.03); }
 
-/* line 27, ../../sass/styles.scss */
+/* line 31, ../../sass/styles.scss */
 .splash-article {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
+  background: url(../images/big-optimized.jpg) no-repeat center center;
+  background-size: cover;
   width: 100%;
   height: 90%; }
 
-/* line 37, ../../sass/styles.scss */
+/* line 43, ../../sass/styles.scss */
 .box-fill {
   width: 100%;
   height: 100%; }
 
-/* line 43, ../../sass/styles.scss */
+/* line 49, ../../sass/styles.scss */
 .box-third {
   width: 100%;
   height: 35%; }
 
-/* line 48, ../../sass/styles.scss */
+/* line 54, ../../sass/styles.scss */
 .box-placeholder {
   width: 100%;
   height: 90vh; }
 
-/* line 54, ../../sass/styles.scss */
+/* line 60, ../../sass/styles.scss */
 .screen-third {
   width: 100%;
   height: 30vh; }
 
-/* line 60, ../../sass/styles.scss */
+/* line 66, ../../sass/styles.scss */
 .box-center {
   display: block;
   margin: 0 auto; }
 
-/* line 66, ../../sass/styles.scss */
+/* line 72, ../../sass/styles.scss */
 .margin-bottom {
   margin-bottom: 20px !important; }
 
-/* line 71, ../../sass/styles.scss */
+/* line 77, ../../sass/styles.scss */
 .input-text {
   /* css 3 */
   border-radius: 5px !important;
@@ -150,6 +155,6 @@ h1 {
   /* webkit */
   -webkit-border-radius: 5px !important; }
 
-/* line 81, ../../sass/styles.scss */
+/* line 87, ../../sass/styles.scss */
 .top-pad {
   padding: 15px !important; }

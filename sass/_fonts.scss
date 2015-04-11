@@ -1,6 +1,6 @@
 
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,300light|Monsterrat:400|Oswald:300,400|Bree+Serif|Merriweather|Vollkorn');
-@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+//@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
 $font-primary: Lato, sans-serif;
 $monsterrat: Monsterrat, serif;
@@ -11,6 +11,11 @@ $font-secondary: Merriweather, serif;
   font-family: $font-primary;
   font-weight: 300;
   font-size: 4em;
+}
+
+.font-subtitle {
+  @extend .font-title;
+  font-size: 3em;
 }
 
 .font-skinny {
