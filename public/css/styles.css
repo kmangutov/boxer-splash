@@ -86,31 +86,46 @@ h1 {
 
 /* line 11, ../../sass/styles.scss */
 .splash-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
   width: 100%;
   height: 90%;
   background: url(../images/big.jpg) no-repeat center center fixed;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-filter: blur(2px) grayscale(0.1); }
 
-/* line 19, ../../sass/styles.scss */
+/* line 25, ../../sass/styles.scss */
+.splash-article {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 90%; }
+
+/* line 35, ../../sass/styles.scss */
 .box-fill {
   width: 100%;
   height: 100%; }
 
-/* line 25, ../../sass/styles.scss */
+/* line 41, ../../sass/styles.scss */
 .box-third {
   width: 100%;
   height: 50%; }
 
-/* line 30, ../../sass/styles.scss */
+/* line 46, ../../sass/styles.scss */
 .screen-third {
   width: 100%;
   height: 30vh; }
 
-/* line 36, ../../sass/styles.scss */
+/* line 52, ../../sass/styles.scss */
 .box-center {
   display: block;
   margin: auto auto; }
 
-/* line 42, ../../sass/styles.scss */
+/* line 58, ../../sass/styles.scss */
 .top-pad {
   padding: 15px !important; }
