@@ -5,6 +5,9 @@
 
 // Make sure the charset is set appropriately
 
+$topbar-height: 60px !important;
+$topbar-title-font-size: 52px !important;
+
 // Behold, here are all the Foundation components.
   @import "foundation/components/grid"; 
   @import "foundation/components/accordion";
@@ -58,5 +61,6 @@
 }
 
 $header-font-color: #fff !important;
+
 
 

@@ -5,10 +5,18 @@
   <title>MP2 Starter</title>
   <script src="./lib/angular/angular.min.js"></script>
   <script src="./js/controllers.js"></script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./foundation/css/foundation.css">
   
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<script>
+setTimeout(function(){
+   $(window).trigger('resize');        
+}, 0);
+</script>
+
 </head>
 
 
@@ -25,9 +33,16 @@
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <span ><a href="#" class="font-skinny font-white top-pad">boxer</a></span>
+          <span class="font-skinny font-white top-pad">boxer</span>
         </li>
       </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-facebook"></i></li>
+        </ul>
+      </section>
     </nav>
   </div>
 
@@ -41,8 +56,21 @@
       </div>
 
       <div class="box-center">
-        <center><span class="font-title font-white">Storage. Simple.</span></center>
+        
+          <div class="font-title font-white">Storage. Simple.</div>
+          <div class="font-reading font-white">Let us tell you when.</div>
+          
+          <div class="row collapse postfix-found">
+            <div class="small-9 columns">
+              <input type="text" placeholder="your@email.com">
+            </div>
+            <div class="small-3 columns">
+            <a href="#" class="button postfix">Notify me</a>
+            </div>
+          </div>
+
       </div>
+ 
     </div>
 
     <div class="small-12 large-6 columns">

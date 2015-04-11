@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,300light|Oswald:300,400|Bree+Serif|Merriweather|Vollkorn");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,300light|Monsterrat:400|Oswald:300,400|Bree+Serif|Merriweather|Vollkorn");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 /* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -68,19 +68,24 @@ h1 {
   font-size: 1.2rem;
   color: #2176C7; }
 
-/* line 8, ../../sass/_fonts.scss */
+/* line 9, ../../sass/_fonts.scss */
 .font-title {
   font-family: Lato, sans-serif;
   font-weight: 300;
   font-size: 4em; }
 
-/* line 15, ../../sass/_fonts.scss */
+/* line 16, ../../sass/_fonts.scss */
 .font-skinny {
   font-family: Lato, sans-serif !important;
   font-weight: 100 !important;
   font-size: 52px !important; }
 
 /* line 23, ../../sass/_fonts.scss */
+.font-reading {
+  font-family: Merriweather, serif !important;
+  font-size: 24px; }
+
+/* line 29, ../../sass/_fonts.scss */
 .font-white {
   color: #fff !important; }
 
@@ -93,11 +98,12 @@ h1 {
   display: block;
   width: 100%;
   height: 90%;
-  background: url(../images/big.jpg) no-repeat center center fixed;
+  background: url(../images/big-optimized.jpg) no-repeat center center fixed;
   background-size: cover;
-  -webkit-filter: blur(2px) grayscale(0.1); }
+  -webkit-filter: blur(2px) grayscale(0.1);
+  transform: scale(1.03); }
 
-/* line 25, ../../sass/styles.scss */
+/* line 27, ../../sass/styles.scss */
 .splash-article {
   position: fixed;
   left: 0;
@@ -106,26 +112,39 @@ h1 {
   width: 100%;
   height: 90%; }
 
-/* line 35, ../../sass/styles.scss */
+/* line 37, ../../sass/styles.scss */
 .box-fill {
   width: 100%;
   height: 100%; }
 
-/* line 41, ../../sass/styles.scss */
+/* line 43, ../../sass/styles.scss */
 .box-third {
   width: 100%;
-  height: 50%; }
+  height: 35%; }
 
-/* line 46, ../../sass/styles.scss */
+/* line 48, ../../sass/styles.scss */
 .screen-third {
   width: 100%;
   height: 30vh; }
 
-/* line 52, ../../sass/styles.scss */
+/* line 54, ../../sass/styles.scss */
 .box-center {
   display: block;
-  margin: auto auto; }
+  margin: 0 auto; }
 
-/* line 58, ../../sass/styles.scss */
+/* line 60, ../../sass/styles.scss */
+.margin-bottom {
+  margin-bottom: 20px !important; }
+
+/* line 65, ../../sass/styles.scss */
+.input-text {
+  /* css 3 */
+  border-radius: 5px !important;
+  /* mozilla */
+  -moz-border-radius: 5px !important;
+  /* webkit */
+  -webkit-border-radius: 5px !important; }
+
+/* line 75, ../../sass/styles.scss */
 .top-pad {
   padding: 15px !important; }
