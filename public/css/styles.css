@@ -97,28 +97,40 @@ h1 {
   color: #fff !important; }
 
 /* line 11, ../../sass/styles.scss */
+.boxer-logo {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 60px;
+  height: 60px; }
+
+/* line 20, ../../sass/styles.scss */
+.left-pad {
+  padding-left: 100px !important; }
+
+/* line 25, ../../sass/styles.scss */
 footer {
   padding-top: 30px;
   font-family: Merriweather, serif;
   font-weight: 300;
   color: rgba(184, 184, 184, 0.8); }
 
-/* line 19, ../../sass/styles.scss */
+/* line 33, ../../sass/styles.scss */
 .gray {
   background-color: rgba(184, 184, 184, 0.2) !important; }
 
-/* line 24, ../../sass/styles.scss */
+/* line 38, ../../sass/styles.scss */
 article .how {
   width: 100%;
   min-height: 80vh !important;
   padding-top: 40px;
   padding-bottom: 40px; }
 
-/* line 32, ../../sass/styles.scss */
+/* line 46, ../../sass/styles.scss */
 .cell {
   padding: 20px 20px; }
 
-/* line 36, ../../sass/styles.scss */
+/* line 50, ../../sass/styles.scss */
 .showcase {
   float: left;
   font-family: Lato, sans-serif;
@@ -128,7 +140,7 @@ article .how {
   padding-left: 30px;
   color: rgba(184, 184, 184, 0.8); }
 
-/* line 48, ../../sass/styles.scss */
+/* line 62, ../../sass/styles.scss */
 .splash-image {
   position: fixed;
   left: 0;
@@ -142,48 +154,48 @@ article .how {
   -webkit-filter: blur(2px) grayscale(0.1);
   transform: scale(1.03); }
 
-/* line 64, ../../sass/styles.scss */
+/* line 78, ../../sass/styles.scss */
 .splash-article {
   background: url(../images/big-optimized.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 90%; }
 
-/* line 76, ../../sass/styles.scss */
+/* line 90, ../../sass/styles.scss */
 .box-fill {
   width: 100%;
   height: 100%; }
 
-/* line 82, ../../sass/styles.scss */
+/* line 96, ../../sass/styles.scss */
 .box-third {
   width: 100%;
   height: 35%; }
 
-/* line 87, ../../sass/styles.scss */
+/* line 101, ../../sass/styles.scss */
 .box-placeholder {
   width: 100%;
   height: 90vh; }
 
-/* line 93, ../../sass/styles.scss */
+/* line 107, ../../sass/styles.scss */
 .screen-third {
   width: 100%;
   height: 30vh; }
 
-/* line 99, ../../sass/styles.scss */
+/* line 113, ../../sass/styles.scss */
 .screen-fourth {
   width: 100%;
   height: 15vh; }
 
-/* line 105, ../../sass/styles.scss */
+/* line 119, ../../sass/styles.scss */
 .box-center {
   display: block;
   margin: 0 auto; }
 
-/* line 111, ../../sass/styles.scss */
+/* line 125, ../../sass/styles.scss */
 .margin-bottom {
   margin-bottom: 20px !important; }
 
-/* line 116, ../../sass/styles.scss */
+/* line 130, ../../sass/styles.scss */
 .input-text {
   /* css 3 */
   border-radius: 5px !important;
@@ -192,6 +204,6 @@ article .how {
   /* webkit */
   -webkit-border-radius: 5px !important; }
 
-/* line 126, ../../sass/styles.scss */
+/* line 140, ../../sass/styles.scss */
 .top-pad {
   padding: 15px !important; }

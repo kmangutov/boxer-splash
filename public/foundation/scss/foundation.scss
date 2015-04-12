@@ -49,16 +49,16 @@ $topbar-title-font-size: 52px !important;
 
 
 .top-bar { background-color: rgba(0,0,0,0.4) }
-.top-bar-section { background-color: rgba(0,0,0,0.4) !important;  }
+.top-bar-section { background-color: rgba(0,0,0,0) !important;  }
 .top-bar-section li { background-color: transparent !important;  }
 .top-bar-section li a { background-color: transparent !important;  }
 
-@media #{$large-up} {
+/*@media #{$large-up} {
 
 
   .top-bar { background-color: rgba(0,0,0,0) }
   .top-bar-section { background-color: rgba(0,0,0,0) !important;  } 
-}
+}*/
 
 $header-font-color: #fff !important;
 
