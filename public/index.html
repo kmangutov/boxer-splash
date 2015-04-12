@@ -1,5 +1,23 @@
 <!doctype html>
 <html lang="en">
+<style>
+#wrapper { width: 284px; height: 602px; padding: 0; overflow: hidden; }
+#scaled-frame { width: 442px; height: 926px; border: 0px; }
+#scaled-frame {
+    zoom: 0.71;
+    -moz-transform: scale(0.65);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.65);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.65);
+    -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #scaled-frame  { zoom: 1;  }
+}
+</style>
+
 <head>
   <meta charset="UTF-8">
   <title>boxer</title>
@@ -40,8 +58,8 @@ setTimeout(function(){
 
       <section class="nc_top-bar-section top-bar-section">
         <ul class="right">
-          <li><i class="fa fa-facebook font-white icon-2x top-pad"></i></li>
-          <li><i class="fa fa-twitter font-white icon-2x top-pad"></i></li>
+          <li><a href="https://www.facebook.com/boxerapp"><i class="fa fa-facebook font-white icon-2x top-pad"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter font-white icon-2x top-pad"></i></a></li>
         </ul>
 
       </section>
@@ -77,7 +95,7 @@ setTimeout(function(){
     </div>
 
     <div class="small-12 large-6 columns">
-      <center><iframe width="442" height="926" src="//invis.io/7G2OF4IWR" frameborder="0" allowfullscreen></iframe></center>
+      <center><div id="wrapper"><iframe id="scaled-frame" width="442" height="926" src="//invis.io/7G2OF4IWR" frameborder="0" allowfullscreen></iframe></div></center>
       <!--442 926-->
       <!--<img src="images/mockup_noshadow.png">-->
     </div>
@@ -86,9 +104,9 @@ setTimeout(function(){
 
 </article>
 
-<div class="screen-third">&nbsp;</div>
-<div class="screen-third">&nbsp;</div>
-
+<div class="screen-fourth">&nbsp;</div>
+<!-- <div class="screen-third">&nbsp;</div>
+ -->
 <article>
    <div class="row">
       <div class="small-12 medium-6 columns">
@@ -165,7 +183,7 @@ setTimeout(function(){
 
 <article class="how">
 
-  <div class="screen-fourth">&nbsp;</div>
+  <!-- <div class="screen-fourth">&nbsp;</div> -->
   <div class="row">
     <span class="font-subtitle margin-bottom">For storers</span><br><br><br>
   </div>
@@ -209,7 +227,7 @@ setTimeout(function(){
         <span class="font-reading font-smaller">Put your profit into a 401k</span>
     </div>
   </div>
-  <div class="screen-fourth">&nbsp;</div>
+  <!-- <div class="screen-fourth">&nbsp;</div> -->
 </article>
 
 <div class="screen-fourth">&nbsp;</div>
