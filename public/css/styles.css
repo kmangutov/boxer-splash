@@ -97,31 +97,38 @@ h1 {
   color: #fff !important; }
 
 /* line 11, ../../sass/styles.scss */
+footer {
+  padding-top: 30px;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  color: rgba(184, 184, 184, 0.8); }
+
+/* line 19, ../../sass/styles.scss */
 .gray {
   background-color: rgba(184, 184, 184, 0.2) !important; }
 
-/* line 16, ../../sass/styles.scss */
+/* line 24, ../../sass/styles.scss */
 article .how {
   width: 100%;
   min-height: 80vh !important;
   padding-top: 40px;
   padding-bottom: 40px; }
 
-/* line 24, ../../sass/styles.scss */
+/* line 32, ../../sass/styles.scss */
 .cell {
   padding: 20px 20px; }
 
-/* line 28, ../../sass/styles.scss */
+/* line 36, ../../sass/styles.scss */
 .showcase {
   float: left;
   font-family: Lato, sans-serif;
   font-weight: 300;
   font-size: 6em;
   padding-right: 7px;
-  padding-left: 25px;
+  padding-left: 30px;
   color: rgba(184, 184, 184, 0.8); }
 
-/* line 40, ../../sass/styles.scss */
+/* line 48, ../../sass/styles.scss */
 .splash-image {
   position: fixed;
   left: 0;
@@ -135,48 +142,48 @@ article .how {
   -webkit-filter: blur(2px) grayscale(0.1);
   transform: scale(1.03); }
 
-/* line 56, ../../sass/styles.scss */
+/* line 64, ../../sass/styles.scss */
 .splash-article {
   background: url(../images/big-optimized.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 90%; }
 
-/* line 68, ../../sass/styles.scss */
+/* line 76, ../../sass/styles.scss */
 .box-fill {
   width: 100%;
   height: 100%; }
 
-/* line 74, ../../sass/styles.scss */
+/* line 82, ../../sass/styles.scss */
 .box-third {
   width: 100%;
   height: 35%; }
 
-/* line 79, ../../sass/styles.scss */
+/* line 87, ../../sass/styles.scss */
 .box-placeholder {
   width: 100%;
   height: 90vh; }
 
-/* line 85, ../../sass/styles.scss */
+/* line 93, ../../sass/styles.scss */
 .screen-third {
   width: 100%;
   height: 30vh; }
 
-/* line 91, ../../sass/styles.scss */
+/* line 99, ../../sass/styles.scss */
 .screen-fourth {
   width: 100%;
   height: 15vh; }
 
-/* line 97, ../../sass/styles.scss */
+/* line 105, ../../sass/styles.scss */
 .box-center {
   display: block;
   margin: 0 auto; }
 
-/* line 103, ../../sass/styles.scss */
+/* line 111, ../../sass/styles.scss */
 .margin-bottom {
   margin-bottom: 20px !important; }
 
-/* line 108, ../../sass/styles.scss */
+/* line 116, ../../sass/styles.scss */
 .input-text {
   /* css 3 */
   border-radius: 5px !important;
@@ -185,6 +192,6 @@ article .how {
   /* webkit */
   -webkit-border-radius: 5px !important; }
 
-/* line 118, ../../sass/styles.scss */
+/* line 126, ../../sass/styles.scss */
 .top-pad {
   padding: 15px !important; }
