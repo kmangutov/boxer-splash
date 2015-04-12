@@ -29,20 +29,46 @@
   
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script>
 setTimeout(function(){
    $(window).trigger('resize');        
 }, 0);
+
+$(document).ready(function() {
+  $("#input-button").click(function(){
+    var valEmail = $("#input-email").val();
+    /*$.post("localhost:8080/api/user", {
+      email: valEmail
+    }).done(function(data) {
+      alert("Thank you for your support!");
+    });*/
+    var valData = {
+      email: valEmail
+    };
+
+    $.ajax({
+      url: "http://localhost:8080/api/user",
+      type: "POST",
+      crossDomain: true,
+      data: valData,
+      dataType: "json",
+      success: function(result) {
+        alert("Thanks for your support!");
+      }
+    });
+  });
+});
 </script>
+
+
 
 </head>
 
 
 <body>
 
-
-<div class="splafdffsh-image">
-</div>
 
 <article class="splash-article">
 
@@ -83,10 +109,10 @@ setTimeout(function(){
           
           <div class="row collapse postfix-found">
             <div class="small-9 columns">
-              <input type="text" placeholder="your@email.com">
+              <input id="input-email" type="text" placeholder="your@email.com">
             </div>
             <div class="small-3 columns">
-            <a href="#" class="button postfix">Notify me</a>
+            <a href="#" id="input-button" class="button postfix">Notify me</a>
             </div>
           </div>
 
