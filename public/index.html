@@ -56,6 +56,10 @@ $(document).ready(function() {
       dataType: "json",
       success: function(result) {
         alert("Thanks for your support!");
+        console.log(JSON.stringify(result));
+      },
+      error: function() {
+        alert("There was a problem saving your email :(");
       }
     });
   });
